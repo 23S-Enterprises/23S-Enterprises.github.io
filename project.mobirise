@@ -60,7 +60,7 @@
     ],
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/23soundz-logo-8-128x128.png",
-    "mbrsiteDomain": "krlccqyvzd",
+    "mbrsiteDomain": "wocjpxfpmd",
     "cssOptimize": true,
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
@@ -85,13 +85,10 @@
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "PWA": {
-      "enabled": true,
-      "name": "",
-      "icon": "@PROJECT_PATH@/assets/images/23soundz-logo-240-240-px-512x512.png",
-      "themeColor": "#c11c1c"
+      "enabled": false
     },
     "canonical-url": false,
-    "chatbutton": false
+    "chatbutton": {}
   },
   "pages": {
     "index.html": {
