@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "23S Enterprises",
-    "currentPage": "index.html",
+    "currentPage": "music-industry-careers-and-internships.html",
     "theme": {
       "name": "soundamp",
       "title": "SoundAMP",
@@ -80,14 +80,13 @@
     },
     "gdpr": false,
     "pwa-switcher": true,
-    "uniqCompNum": 158,
+    "uniqCompNum": 162,
     "versionPublish": "5.6.3",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "PWA": {
       "enabled": false
     },
-    "canonical-url": false,
     "chatbutton": {}
   },
   "pages": {
@@ -1071,7 +1070,7 @@
           },
           "_name": "social-follow2",
           "_sourceTheme": "soundamp",
-          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n\n        <input type=\"range\" inline=\"\" title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"2\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Icons Size\" name=\"iconsSize\" min=\"0.8\" max=\"5\" step=\"0.1\" value=\"2\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\">\n        \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"wrapper\">\n        <h1 class=\"mbr-fonts-style align-center mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n            Follow Us\n        </h1>\n        <div class=\"icons-list\" mbr-list=\"\" mbr-list-grow=\"iconsCount\">\n            <a href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" target=\"_blank\">\n                <div class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont iconsshake fa-instagram fa\"></span>\n                </div>\n            </a>\n            <a href=\"https://www.facebook.com/23.Soundz/\" target=\"_blank\">\n                <div class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont iconsshake fa-facebook-square fa\"></span>\n                </div>\n            </a>\n            \n            \n            \n            \n            \n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"0.8\" max=\"5\" step=\"0.1\" value=\"2\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\">\n        \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"wrapper\">\n        <h1 class=\"mbr-fonts-style align-center mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n            Follow Us\n        </h1>\n        <div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n            <a href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" target=\"_blank\">\n                <div class=\"iconfont-wrapper\">\n                    <span mbr-icon class=\"amp-iconfont iconsshake fa-instagram fa\"></span>\n                </div>\n            </a>\n            <a href=\"https://www.facebook.com/23.Soundz/\" target=\"_blank\">\n                <div class=\"iconfont-wrapper\">\n                    <span mbr-icon class=\"amp-iconfont iconsshake fa-facebook-square fa\"></span>\n                </div>\n            </a>\n            \n            \n            \n            \n            \n        <a href=\"https://twitter.com/23SoundzEnt\" target=\"_blank\">\n                <div class=\"iconfont-wrapper\">\n                    <span mbr-icon class=\"amp-iconfont iconsshake fa-twitter-square fa\"></span>\n                </div>\n            </a><a href=\"https://wa.me/1 719 4808535\">\n                <div class=\"iconfont-wrapper\">\n                    <span mbr-icon class=\"amp-iconfont iconsshake fa-whatsapp fa\"></span>\n                </div>\n            </a></div>\n    </div>\n</section>",
           "_anchor": "social-follow2-4c",
           "_isUserblock": true,
           "_cid": "t1eMCxYllL",
@@ -3443,35 +3442,6 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".wrapper": {
-              "text-align": "center"
-            },
-            ".amp-iconfont": {
-              "color": "@iconsColor",
-              "font-size": "~\"@{iconsSize}rem\""
-            },
-            ".iconfont-wrapper": {
-              "display": "inline-block",
-              "width": "~\"@{iconsSize}rem\"",
-              "height": "~\"@{iconsSize}rem\"",
-              "margin": "1.5rem"
-            }
-          },
-          "_name": "social-follow2",
-          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"2\" step=\"1\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"0.8\" max=\"5\" step=\"0.1\" value=\"2\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\">\n        \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"wrapper\">\n        <h1 class=\"mbr-fonts-style align-center mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n            Follow Us\n        </h1>\n        <div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n            <a href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" target=\"_blank\">\n                <div class=\"iconfont-wrapper\">\n                    <span mbr-icon class=\"amp-iconfont iconsshake fa-instagram fa\"></span>\n                </div>\n            </a>\n            <a href=\"https://www.facebook.com/23.Soundz/\" target=\"_blank\">\n                <div class=\"iconfont-wrapper\">\n                    <span mbr-icon class=\"amp-iconfont iconsshake fa-facebook-square fa\"></span>\n                </div>\n            </a>\n            \n            \n            \n            \n            \n        </div>\n    </div>\n</section>",
-          "_cid": "t12LDXtmbD",
-          "_anchor": "social-follow2-22",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
@@ -4192,7 +4162,7 @@
           },
           "_name": "title3",
           "_sourceTheme": "soundamp",
-          "_customHTML": "<section class=\"title3 mbr-section\" group=\"Title\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\" checked>\n\n    <fieldset type=\"background\" name=\"bg\">\n        <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n        <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n    </fieldset>\n\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"bg.type!='color' && overlay\">\n    <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"bg.type!='color' && overlay\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\n    <div class=\"container\">\n        <div class=\"card mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\">\n            <h5 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-6\">\n            Internship Opportunity</h5>\n            <h4 class=\"mbr-section-title mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .underline\">\n            Artists &amp; Repertoire (A&amp;R) Label Representative</h4>\n            <p class=\"mbr-text mbr-black mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                Our A&amp;R label rep internship position is responsible for finding promising new artists to sign on to our distribution and in select cases our record label. Other duties include helping our top tier clients with their account, including to upload help, onboarding and more. This is a great opportunity for an aspiring A&amp;R with or without music industry experience. E-mail us your resume with a cover letter and a link to your playlist on any platform (we need to know you're active and on the hunt for new vibes!). Local or at-home opportunity.</p>\n            <div class=\"mbr-section-btn align-center\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary\" href=\"mailto:admin@23s.enterprises\" data-app-placeholder=\"Type Text\">Email Resume</a></div>\n        </div>\n    </div></section>",
+          "_customHTML": "<section class=\"title3 mbr-section\" group=\"Title\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\" checked>\n\n    <fieldset type=\"background\" name=\"bg\">\n        <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n        <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n    </fieldset>\n\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"bg.type!='color' && overlay\">\n    <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"bg.type!='color' && overlay\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\n    <div class=\"container\">\n        <div class=\"card mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\">\n            <h5 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-6\">\n            Internship Opportunity</h5>\n            <h4 class=\"mbr-section-title mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .underline\">\n            Artists &amp; Repertoire (A&amp;R) Label Representative</h4>\n            <p class=\"mbr-text mbr-black mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                Our A&amp;R label rep internship position is responsible for finding promising new artists to sign on to our distribution and in select cases our record label. Other duties include helping our top tier clients with their account, including to upload help, onboarding and more. This is a great opportunity for an aspiring A&amp;R with minimal music industry experience. E-mail us your resume with a cover letter. And please inlcude a link to your personal playlist on any platform (we need to know you're active and on the hunt for new vibes!). Local or at-home internship opportunity with path to paid career.</p>\n            <div class=\"mbr-section-btn align-center\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary\" href=\"mailto:admin@23s.enterprises\" data-app-placeholder=\"Type Text\">Email Resume</a></div>\n        </div>\n    </div></section>",
           "_cid": "t1eHUdTgaV",
           "_anchor": "title3-43",
           "_protectedParams": [],
@@ -4228,9 +4198,138 @@
           },
           "_name": "title4",
           "_sourceTheme": "soundamp",
-          "_customHTML": "<section class=\"title4 mbr-section\" group=\"Title\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\" checked>\n\n    <fieldset type=\"background\" name=\"bg\">\n        <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" selected>\n        <input type=\"color\" title=\"Background Color\" value=\"#e5e5e5\">\n    </fieldset>\n\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"bg.type!='color' && overlay\">\n    <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"bg.type!='color' && overlay\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\n    <div class=\"container\">\n        <div class=\"card mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\">\n            <h5 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-6\">\n            Internship Opportunity</h5>\n            <h4 class=\"mbr-section-title mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .underline\">Music Industry Journalist</h4>\n            <p class=\"mbr-text mbr-white mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                Conduct interviews and write engaging articles about incoming artists and other relevant content for our blog. Select interns with outstanding skill will also have the option to be assigned to write articles for our app (currently in beta and in need of fire content) as well! Email us your resume with a cover letter to apply. Local or at-home opportunity.</p>\n            <div class=\"mbr-section-btn align-center\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"mailto:admin@23s.enterprises\" data-app-placeholder=\"Type Text\">Email Resume</a></div>\n        </div>\n    </div></section>",
+          "_customHTML": "<section class=\"title4 mbr-section\" group=\"Title\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\" checked>\n\n    <fieldset type=\"background\" name=\"bg\">\n        <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-2-1920x1440.jpg\" selected>\n        <input type=\"color\" title=\"Background Color\" value=\"#e5e5e5\">\n    </fieldset>\n\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"bg.type!='color' && overlay\">\n    <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"bg.type!='color' && overlay\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\n    <div class=\"container\">\n        <div class=\"card mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\">\n            <h5 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-6\">\n            Internship Opportunity</h5>\n            <h4 class=\"mbr-section-title mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .underline\">Music Industry Journalist</h4>\n            <p class=\"mbr-text mbr-white mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                As a music industry journalist intern with 23S, you will onduct interviews and write engaging articles about incoming artists and other relevant content for our blog. Select interns with outstanding skill will also have the option to be assigned to write articles for our app (currently in beta and in need of fire content) as well! Email us your resume with a cover letter to apply. Local or at-home internship opportunity with path to paid career.</p>\n            <div class=\"mbr-section-btn align-center\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"mailto:admin@23s.enterprises\" data-app-placeholder=\"Type Text\">Email Resume</a></div>\n        </div>\n    </div></section>",
           "_cid": "t1eHV78idY",
           "_anchor": "title4-44",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".mbr-overlay": {
+                "background-color": "@overlayColor",
+                "opacity": "@overlayOpacity"
+              }
+            },
+            ".card": {
+              "@media (max-width: 768px)": {
+                "padding": "0"
+              }
+            },
+            "& when not (@showSubtitle), (@showText), (@showButton)": {
+              ".mbr-section-title": {
+                "margin": "0"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title, .underline": {
+              "color": "#ffffff"
+            },
+            "H5": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "title3",
+          "_customHTML": "<section class=\"title3 mbr-section\" group=\"Title\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\" checked>\n\n    <fieldset type=\"background\" name=\"bg\">\n        <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n        <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n    </fieldset>\n\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"bg.type!='color' && overlay\">\n    <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"bg.type!='color' && overlay\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\n    <div class=\"container\">\n        <div class=\"card mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\">\n            <h5 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-6\">\n            Internship Opportunity</h5>\n            <h4 class=\"mbr-section-title mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .underline\">\n            Videographer &amp; Video Editor</h4>\n            <p class=\"mbr-text mbr-black mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                This is a local internship opportunity that will lead to a paid position and ideally a full time career opportunity for an indivual with a firey passion for making music videos that pop. Will require high speed internet connection and software suites or a flexible schedule to use our softwares on site. Camera and lighting equipment will be provided if required. Minimum capture capabilities required if you bring your own gear: 60fps at 4k. Email us your resume with a cover letter to apply. Local only internship opportunity with path to paid career.</p>\n            <div class=\"mbr-section-btn align-center\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary\" href=\"mailto:admin@23s.enterprises\" data-app-placeholder=\"Type Text\">Email Resume</a></div>\n        </div>\n    </div></section>",
+          "_anchor": "title3-4h",
+          "_isUserblock": true,
+          "_sourceTheme": "soundamp",
+          "_cid": "t1oHJbXaGB",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".mbr-overlay": {
+                "background-color": "@overlayColor",
+                "opacity": "@overlayOpacity"
+              }
+            },
+            ".card": {
+              "@media (max-width: 768px)": {
+                "padding": "0"
+              }
+            },
+            "& when not (@showSubtitle), (@showText), (@showButton)": {
+              ".mbr-section-title": {
+                "margin": "0"
+              }
+            }
+          },
+          "_name": "title4",
+          "_customHTML": "<section class=\"title4 mbr-section\" group=\"Title\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\" checked>\n\n    <fieldset type=\"background\" name=\"bg\">\n        <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x960.jpg\" selected>\n        <input type=\"color\" title=\"Background Color\" value=\"#e5e5e5\">\n    </fieldset>\n\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"bg.type!='color' && overlay\">\n    <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"bg.type!='color' && overlay\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\n    <div class=\"container\">\n        <div class=\"card mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\">\n            <h5 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-6\">Career Opportunity</h5>\n            <h4 class=\"mbr-section-title mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .underline\">Full-Stack Developer</h4>\n            <p class=\"mbr-text mbr-white mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Experiance with React Native or Flutter. HTML, CSS and Javascipt a must. You will co-lead development efforts on our droid and iOS applications. Email us your resume with a cover letter to apply or ask further questions in relation to the position. Local or at-home paid opportunity.</p>\n            <div class=\"mbr-section-btn align-center\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"mailto:admin@23s.enterprises\" data-app-placeholder=\"Type Text\">Email Resume</a></div>\n        </div>\n    </div></section>",
+          "_anchor": "title4-4f",
+          "_isUserblock": true,
+          "_sourceTheme": "soundamp",
+          "_cid": "t1oGArQMZH",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".mbr-overlay": {
+                "background-color": "@overlayColor",
+                "opacity": "@overlayOpacity"
+              }
+            },
+            ".card": {
+              "@media (max-width: 768px)": {
+                "padding": "0"
+              }
+            },
+            "& when not (@showSubtitle), (@showText), (@showButton)": {
+              ".mbr-section-title": {
+                "margin": "0"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title, .underline": {
+              "color": "#ffffff"
+            },
+            "H5": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "title3",
+          "_customHTML": "<section class=\"title3 mbr-section\" group=\"Title\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\" checked>\n\n    <fieldset type=\"background\" name=\"bg\">\n        <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n        <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n    </fieldset>\n\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"bg.type!='color' && overlay\">\n    <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"bg.type!='color' && overlay\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\n    <div class=\"container\">\n        <div class=\"card mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\">\n            <h5 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-6\">Career Opportunity</h5>\n            <h4 class=\"mbr-section-title mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .underline\">Music Industry Journalist</h4>\n            <p class=\"mbr-text mbr-black mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                Conduct interviews and write engaging articles about incoming artists and other relevant content for our blog. Select interns with outstanding skill will also have the option to be assigned to write articles for our app (currently in beta and in need of fire content) as well! Email us your resume with a cover letter to apply. Local or at-home commision based opportunity.</p>\n            <div class=\"mbr-section-btn align-center\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary\" href=\"mailto:admin@23s.enterprises\" data-app-placeholder=\"Type Text\">Email Resume</a></div>\n        </div>\n    </div></section>",
+          "_anchor": "title3-4g",
+          "_isUserblock": true,
+          "_sourceTheme": "soundamp",
+          "_cid": "t1oGEtO1Db",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -4293,11 +4392,11 @@
             }
           },
           "_name": "social-follow2",
-          "_sourceTheme": "soundamp",
-          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n\n        <input type=\"range\" inline=\"\" title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"2\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Icons Size\" name=\"iconsSize\" min=\"0.8\" max=\"5\" step=\"0.1\" value=\"2\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\">\n        \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"wrapper\">\n        <h1 class=\"mbr-fonts-style align-center mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n            Follow Us\n        </h1>\n        <div class=\"icons-list\" mbr-list=\"\" mbr-list-grow=\"iconsCount\">\n            <a href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" target=\"_blank\">\n                <div class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont iconsshake fa-instagram fa\"></span>\n                </div>\n            </a>\n            <a href=\"https://www.facebook.com/23.Soundz/\" target=\"_blank\">\n                <div class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont iconsshake fa-facebook-square fa\"></span>\n                </div>\n            </a>\n            \n            \n            \n            \n            \n        </div>\n    </div>\n</section>",
-          "_anchor": "social-follow2-4b",
+          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n\n        <input type=\"range\" inline=\"\" title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Icons Size\" name=\"iconsSize\" min=\"0.8\" max=\"5\" step=\"0.1\" value=\"2\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\">\n        \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"wrapper\">\n        <h1 class=\"mbr-fonts-style align-center mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n            Follow Us\n        </h1>\n        <div class=\"icons-list\" mbr-list=\"\" mbr-list-grow=\"iconsCount\">\n            <a href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" target=\"_blank\">\n                <div class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont iconsshake fa-instagram fa\"></span>\n                </div>\n            </a>\n            <a href=\"https://www.facebook.com/23.Soundz/\" target=\"_blank\">\n                <div class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont iconsshake fa-facebook-square fa\"></span>\n                </div>\n            </a>\n            \n            \n            \n            \n            \n        <a href=\"https://twitter.com/23SoundzEnt\" target=\"_blank\">\n                <div class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont iconsshake fa-twitter-square fa\"></span>\n                </div>\n            </a><a href=\"https://wa.me/1 719 4808535\">\n                <div class=\"iconfont-wrapper\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont iconsshake fa-whatsapp fa\"></span>\n                </div>\n            </a></div>\n    </div>\n</section>",
+          "_anchor": "social-follow2-4e",
           "_isUserblock": true,
-          "_cid": "t1eMwvn3zv",
+          "_sourceTheme": "soundamp",
+          "_cid": "t1oGvZhBlj",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
