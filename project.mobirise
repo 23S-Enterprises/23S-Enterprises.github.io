@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "23S Enterprises",
-    "currentPage": "hip-hop-and-rap-news-blogs.html",
+    "currentPage": "music-industry-careers-and-internships.html",
     "theme": {
       "name": "soundamp",
       "title": "SoundAMP",
@@ -80,8 +80,8 @@
     },
     "gdpr": false,
     "pwa-switcher": true,
-    "uniqCompNum": 203,
-    "versionPublish": "5.6.3",
+    "uniqCompNum": 205,
+    "versionPublish": "5.6.5",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "PWA": {
@@ -4392,6 +4392,89 @@
               }
             }
           },
+          "_name": "title4",
+          "_sourceTheme": "soundamp",
+          "_customHTML": "<section class=\"title4 mbr-section\" group=\"Title\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\" checked>\n\n    <fieldset type=\"background\" name=\"bg\">\n        <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1271.jpg\" selected>\n        <input type=\"color\" title=\"Background Color\" value=\"#e5e5e5\">\n    </fieldset>\n\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"bg.type!='color' && overlay\">\n    <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"bg.type!='color' && overlay\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\n    <div class=\"container\">\n        <div class=\"card mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\">\n            <h5 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-6\">\n            Career Opportunity</h5>\n            <h4 class=\"mbr-section-title mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .underline\">Lead In-House Producer</h4>\n            <p class=\"mbr-text mbr-white mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Help build out and lead our in-house production team. Reach out via email for more info. Dope beats and leadership qualities an absolute must.</p>\n            <div class=\"mbr-section-btn align-center\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"mailto:admin@23s.enterprises\" data-app-placeholder=\"Type Text\">Email Resume</a></div>\n        </div>\n    </div></section>",
+          "_anchor": "title4-5n",
+          "_isUserblock": true,
+          "_cid": "t30BDWyZ7o",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".mbr-overlay": {
+                "background-color": "@overlayColor",
+                "opacity": "@overlayOpacity"
+              }
+            },
+            ".card": {
+              "@media (max-width: 768px)": {
+                "padding": "0"
+              }
+            },
+            "& when not (@showSubtitle), (@showText), (@showButton)": {
+              ".mbr-section-title": {
+                "margin": "0"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title, .underline": {
+              "color": "#ffffff"
+            },
+            "H5": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "title3",
+          "_sourceTheme": "soundamp",
+          "_customHTML": "<section class=\"title3 mbr-section\" group=\"Title\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\" checked>\n\n    <fieldset type=\"background\" name=\"bg\">\n        <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n        <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n    </fieldset>\n\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"bg.type!='color' && overlay\">\n    <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"bg.type!='color' && overlay\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\n    <div class=\"container\">\n        <div class=\"card mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\">\n            <h5 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-6\">\n            Career Opportunity</h5>\n            <h4 class=\"mbr-section-title mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .underline\">\n            In-House Producer</h4>\n            <p class=\"mbr-text mbr-black mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                Produce dope beats, get paid, it's that easy. Oh, did we mention great PR and sync opportunities too?&nbsp;Reach out via email for more info. Looking to fill multiple positions immediately. Dope beats and leadership qualities an absolute must.</p>\n            <div class=\"mbr-section-btn align-center\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary\" href=\"mailto:admin@23s.enterprises\" data-app-placeholder=\"Type Text\">Email Resume</a></div>\n        </div>\n    </div></section>",
+          "_anchor": "title3-5o",
+          "_isUserblock": true,
+          "_cid": "t30BKoqYHF",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".mbr-overlay": {
+                "background-color": "@overlayColor",
+                "opacity": "@overlayOpacity"
+              }
+            },
+            ".card": {
+              "@media (max-width: 768px)": {
+                "padding": "0"
+              }
+            },
+            "& when not (@showSubtitle), (@showText), (@showButton)": {
+              ".mbr-section-title": {
+                "margin": "0"
+              }
+            }
+          },
           "_name": "title1",
           "_sourceTheme": "soundamp",
           "_customHTML": "<section class=\"title1 mbr-section\" group=\"Title\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n    <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n    <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\">\n\n    <fieldset type=\"background\" name=\"bg\">\n        <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n        <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n    </fieldset>\n\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"bg.type!='color' && overlay\">\n    <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"bg.type!='color' && overlay\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\n    <div class=\"container\">\n        <div class=\"card mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\">\n            <h5 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            Shape your future web project with sharp design and refine coded functions.\n            </h5>\n            <h4 class=\"mbr-section-title mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .underline\"><b>\n            More Opps On the Way!</b></h4>\n            <p class=\"mbr-text mbr-white mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolorem quo in, animi iste magnam, saepe accusantium veritatis vitae perferendis delectus eligendi officia nulla pariatur incidunt culpa vel doloribus rem.\n            </p>\n            <div class=\"mbr-section-btn align-center\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                <a class=\"btn btn-primary\" href=\"https://mobiri.se\">\n                    LEARN MORE\n                </a>\n            </div>\n        </div>\n    </div></section>",
@@ -6139,7 +6222,7 @@
           },
           "_name": "image2",
           "_sourceTheme": "soundamp",
-          "_customHTML": "<section class=\"image1\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"79\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\" checked>\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/screen-shot-2022-04-06-at-5.15.06-pm-1768x1332.png\" layout=\"responsive\" width=\"1058.576793326157\" height=\"578.141\" alt=\"V.I. Musik\">\n                <div placeholder class=\"placeholder\"></div>\n                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/screen-shot-2022-04-06-at-5.15.06-pm-1768x1332.png\" alt=\"V.I. Musik\" data-aspectratio=\"0.7501469723691946\">\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    <a href=\"https://www.instagram.com/vi_musik/\" class=\"text-primary\">V.I. Musik</a> outside making it look easy, y'all best cover your plates!</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"image1\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"79\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\" checked=\"\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/screen-shot-2022-04-06-at-5.15.06-pm-1768x1332.png\" layout=\"responsive\" width=\"1058.576793326157\" height=\"578.141\" alt=\"V.I. Musik\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/screen-shot-2022-04-06-at-5.15.06-pm-1768x1332.png\" alt=\"V.I. Musik\" data-aspectratio=\"0.7501469723691946\">\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    <a href=\"https://www.instagram.com/vi_musik/\" class=\"text-primary\">V.I. Musik</a> outside making it look easy, y'all best cover your plates!</p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "t2gJEDgWe2",
           "_anchor": "image2-5d",
           "_protectedParams": [],
