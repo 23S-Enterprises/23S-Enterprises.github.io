@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "23S Enterprises",
-    "currentPage": "hip-hop-and-rap-news-blogs.html",
+    "currentPage": "meet-vann-demand.html",
     "theme": {
       "name": "soundamp",
       "title": "SoundAMP",
@@ -20885,7 +20885,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/untitled%20design%20(64)-1620x1620.png",
+        "meta_image": "@PROJECT_PATH@/assets/images/img-3426-jpg-2000x2000.jpeg",
         "order": 25
       },
       "components": [
@@ -22725,7 +22725,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/untitled%20design%20(64)-1620x1620.png",
+        "meta_image": "@PROJECT_PATH@/assets/images/new6-1200x1200.jpeg",
         "order": 26
       },
       "components": [
